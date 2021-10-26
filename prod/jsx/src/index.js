@@ -1,18 +1,17 @@
 // Import the React and ReactDOM libraries
-
-/**
- * ----------------- Note ---------------
- * ES2015 Modules -:   ES2015 Import Statement uses the keyword "import"
- * CommonJS Modules -: CommonJS Import Statement uses the keyword "require" 
- */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 
 // Create a react component
 const App = () => {
+    /* Invalid JSX syntax */
     return <div>
-        <h1>🧠Let's ⚛ React!!!😎</h1>
+        <div>
+	     <label class='label' for="name">Enter name:</label>
+	     <input id="name" type="text" />
+	     <button style="background-color: blue; color: white;">Submit</button>
+	    </div>
     </div>
 }
 
