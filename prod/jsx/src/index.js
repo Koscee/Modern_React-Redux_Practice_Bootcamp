@@ -5,14 +5,14 @@ import ReactDOM from 'react-dom';
 
 // Create a react component
 const App = () => {
-    /* Referencing JS variables in JSX */
     
     const labelText = 'Enter name:';
     const button = { text: 'CLick me' };
 
     return (
         <div>
-            <label className='label' for="name">
+            {/* Fix invalid DOM property `for` */}
+            <label className='label' htmlFor="name">
                 {labelText}
             </label>
             <input id="name" type="text" />
