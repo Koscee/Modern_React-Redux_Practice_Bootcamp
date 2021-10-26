@@ -5,14 +5,22 @@ import ReactDOM from 'react-dom';
 
 // Create a react component
 const App = () => {
-    /* fix invalid DOM property `class` */
-    return <div>
+    /* Referencing JS variables in JSX */
+    
+    const labelText = 'Enter name:';
+    const button = { text: 'CLick me' };
+
+    return (
         <div>
-	     <label className='label' for="name">Enter name:</label>
-	     <input id="name" type="text" />
-	     <button style={{ backgroundColor: 'blue', color: 'white' }}>Submit</button>
-	    </div>
-    </div>
+            <label className='label' for="name">
+                {labelText}
+            </label>
+            <input id="name" type="text" />
+            <button style={{ backgroundColor: 'blue', color: 'white' }}>
+                {button.text}
+            </button>
+        </div>
+    );
 }
 
 
