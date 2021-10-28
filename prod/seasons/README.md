@@ -38,21 +38,21 @@ Requirements:
 
 ### Design:
 
-![App design](/screenshots/app-design.png)
+![App design](screenshots/app-design.png)
 
 ---
 
-![Logic structure](/screenshots/logic-structure.png)
+![Logic structure](screenshots/logic-structure.png)
 <br>
 
 ### Pages Screenshots:
 
-![Loading page](/screenshots/loading.png)
+![Loading page](screenshots/loading.png)
 
 ---
 
-![Winter Season page](/screenshots/winter-season-page.png)
+![Winter Season page](screenshots/winter-season-page.png)
 
 ---
 
-![Summer Season page](/screenshots/summer-season-page.png)
+![Summer Season page](screenshots/summer-season-page.png)
