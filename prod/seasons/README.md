@@ -38,10 +38,21 @@ Requirements:
 
 ### Design:
 
-**App** } has code to determine location and month
-\|
-\|
-\|-season prop
-\|
-V
-**SeasonDisplay** } shows different text/icons based on props
+![App design](/screenshots/app-design.png)
+
+---
+
+![Logic structure](/screenshots/logic-structure.png)
+<br>
+
+### Pages Screenshots:
+
+![Loading page](/screenshots/loading.png)
+
+---
+
+![Winter Season page](/screenshots/winter-season-page.png)
+
+---
+
+![Summer Season page](/screenshots/summer-season-page.png)
