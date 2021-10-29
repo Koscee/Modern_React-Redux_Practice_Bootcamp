@@ -1,0 +1,45 @@
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.winter {
+  background-color: rgb(208, 230, 250);
+}
+
+.summer {
+  background-color: rgb(248, 210, 140);
+}
+
+.icon-left {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+}
+
+.snowflake {
+  animation: spinning 8s infinite linear;
+  color: rgb(87, 182, 238);
+}
+
+.sun {
+  animation: spinning 10s infinite alternate;
+  color: rgb(255, 165, 0);
+}
+
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
