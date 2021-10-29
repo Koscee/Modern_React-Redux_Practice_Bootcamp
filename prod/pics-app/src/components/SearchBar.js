@@ -3,15 +3,11 @@ import React from "react";
 class SearchBar extends React.Component {
   state = { term: "" };
 
-  onFormSubmit(event) {
+  onFormSubmit = (event) => {
     event.preventDefault();
 
-    /**
-     * leads to an error....
-     * "Cannot read properties of undefined (reading 'state')"
-     */
     console.log(this.state.term);
-  }
+  };
 
   render() {
     return (
